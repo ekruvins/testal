@@ -1,0 +1,24 @@
+Virtual User Script started at: 8/17/2020 2:28:02 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (Nov 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\testScript\RequestScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(22): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(22): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(22): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(26): Notify: Transaction "request" started.
+Action.c(27): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(27): web_custom_request("web_custom_request") was successful, 0 body bytes, 146 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Notify: Transaction "request" ended with a "Pass" status (Duration: 0.1126 Wasted Time: 0.0987).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

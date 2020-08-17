@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\testScript\RequestScript
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\testscript\requestscript\\logfile.log
+d:\testscript\requestscript\\combined_RequestScript.c
+d:\testscript\requestscript\\pre_cci.c

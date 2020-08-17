@@ -1,0 +1,15 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "request",
+                "rawStartTime": 1597643424568,
+                "rawEndTime": 1597643424698,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11538982391357422
+            }
+        ]
+    }
+]
